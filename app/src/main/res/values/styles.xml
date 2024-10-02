@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HomeActivityTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:actionButtonStyle">@style/MenuItemStyle</item>
+        <item name="android:statusBarColor">@color/variant3</item>
+    </style>
+
+    <style name="MenuItemStyle" parent="Widget.AppCompat.ActionButton">
+        <item name="android:background">@android:color/black</item>
+    </style>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SereneMind</string>
+    <string name="default_web_client_id">75322934424-kqappee2lvsnpr1tobl0hnltqllfvsp0.apps.googleusercontent.com </string>
+    <string name="about_content">SereneMind is an innovative application created by Yuvraj Singh. This application aims to support mental health by offering a range of tests designed to assess various mental health disorders.\n\n This app utilizes cutting-edge AI technology to analyze the test results, providing users with insightful feedback and suggestions for their mental well-being.\n\n    With a user-friendly interface, SereneMind empowers individuals to take control of their mental health, offering a supportive and accessible platform for self-assessment and improvement.\n\n   Thank you for choosing SereneMind as a companion in your journey towards better mental well-being.</string>
+</resources>

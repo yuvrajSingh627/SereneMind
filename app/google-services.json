@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "410209581252",
+    "firebase_url": "https://serenemind-4f46e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "serenemind-4f46e",
+    "storage_bucket": "serenemind-4f46e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410209581252:android:13bbf7c4e2f50de28ef191",
+        "android_client_info": {
+          "package_name": "com.example.serenemind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410209581252-6n89hvagmeclsgjgju1s886hcnl222mt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.serenemind",
+            "certificate_hash": "eeb165f868ca79894f071dc224f2358d1420aa11"
+          }
+        },
+        {
+          "client_id": "410209581252-sir95cot59lgkp60jp8p64cs5bn8jnvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmGs29hHwqDs_BT6b7mxgPUOPwk1hckG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410209581252-sir95cot59lgkp60jp8p64cs5bn8jnvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

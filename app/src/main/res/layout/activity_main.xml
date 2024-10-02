@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="72dp"
+        android:contentDescription="Main Logo"
+        android:src="@drawable/ic_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="SIGN IN"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/fl_sign_in_google"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <FrameLayout
+        android:id="@+id/fl_sign_in_google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="@drawable/ripple_sign_in"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@id/fl_sign_in_guest"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/tv_sign_in_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="15dp"
+            android:background="@drawable/sign_in_bg"
+            android:textSize="18sp"
+            android:text="SIGN IN WITH GOOGLE"
+            android:textStyle="bold"
+            android:textColor="#878787"
+            android:gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:paddingEnd="5dp"
+            android:layout_gravity="center_vertical|end"
+            android:src="@drawable/ic_google_logo"
+            tools:ignore="ContentDescription,RtlSymmetry" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_sign_in_guest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="@drawable/ripple_sign_in"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/tv_sign_in_guest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="15dp"
+            android:background="@drawable/sign_in_bg"
+            android:textSize="18sp"
+            android:text="SIGN IN AS GUEST"
+            android:textStyle="bold"
+            android:textColor="#878787"
+            android:gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:paddingEnd="5dp"
+            android:layout_gravity="center_vertical|end"
+            android:src="@drawable/ic_guest"
+            tools:ignore="ContentDescription,RtlSymmetry" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
